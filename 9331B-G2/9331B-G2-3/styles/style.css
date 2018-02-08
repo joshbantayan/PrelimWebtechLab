@@ -10,16 +10,14 @@
 	height: auto;
 	z-index: -100;
 }
-/*	------header/title------	*/
-.pg_caption {
-    /*header */
-    text-align: center;
-    color: #fff;
-    font-family: sans-serif;
-    text-shadow: 2px 2px 10px #000000;
-    font-size: 1.3em;
-    letter-spacing: 10px;
+
+.website_logo {
+	position: relative;
+	width: 200px;
+	height: 150px;
+	border: 3px solid #333;
 }
+
 h1 {
     text-align: center;
     color: #fff;
@@ -37,50 +35,91 @@ h2 {
     font-size: 2.3em;
     letter-spacing: 10px;
 }
-
 .horizontal_nav_bar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+	position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+	right: 0%;
+	left: 15.70%;
+	top: 8%;
 }
+
 .horizontal_nav_bar li {
     float: left;
 }
 
-.horizontal_nav_bar li a {
-	display: block;
+.horizontal_nav_bar ul li a {
+		display: block;
     color: white;
     text-align: center;
-		font-size: .5cm;
-    padding: 20px 30px;
-    padding: 14px 30px 14px 30px;
-    padding: 14px 16px;
+		font-size: .6cm;
+    padding: 20px 50px;
     text-decoration: none;
 }
-.horizontal_nav_bar li a:hover:not(.active) {
+
+.horizontal_nav_bar ul li a:hover:not(.active) {
     background-color: #111;
 }
+
 .active {
     background-color: #4CAF50;
 }
 
-hr {
-    opacity: 0;
+
+.horizontal_nav_bar:focus .sub-menu,
+.horizontal_nav_bar:focus-within .sub-menu,
+.horizontal_nav_bar:hover .sub-menu {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
 }
 
-p {
+.vertical_nav_bar {
+    position: relative;
+    width: 220px;
+    height: 70px;
+    border: 3px solid #73AD21;
+}
+
+.vertical_nav_bar ul {
+    position: absolute;
+		top: 30px;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+}
+
+.vertical_nav_bar ul li a {
+	display: block;
+    color: white;
+    text-align: center;
+		font-size: .5cm;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+#home_maincontent p {
+		border: 1px solid Black;
+		background-color: darkseagreen;
     tab-size: 8px;
     font: sans-serif;
-    color: floralwhite;
+    color: black;
+		margin-right: 15%;
+		margin-left: 15%;
+		padding: 25px 15px;
 }
 
 #home_maincontent {
-    background: darkseagreen;
     opacity: 2;
     position: relative;
-
+		font-size: .8cm;
 }
 
 
@@ -93,11 +132,8 @@ p {
     width: 100%;
     text-align: left;
     font: normal 16px sans-serif;
-
     padding: 20px 20px;
     margin-top: 50px;
-}
-
 }
 
 .footer_links {
@@ -132,12 +168,10 @@ p {
     display: inline-block;
     width: 45px;
     height: 45px;
-
     font-size: 20px;
     color: #ffffff;
     text-align: center;
     line-height: 35px;
-
     margin-left: 5px;
     float: left;
     padding-right: 10px;
@@ -165,8 +199,14 @@ p {
   transform: translateY(0%);
   transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
 }
-hr {
-	opacity
+
+hr{
+	position: absolute;
+	bottom: 0
+	opacity: 0;
+}
+br {
+	display: none;
 }
 
 .footer p {
@@ -185,7 +225,6 @@ hr {
 
 #author1 img {
     border-radius: 50%;
-
 }
 
 
@@ -198,6 +237,7 @@ hr {
     border-radius: 50%;
 }
 
+
 #author4 img {
     border-radius: 50%;
 }
@@ -207,15 +247,66 @@ hr {
     border-radius: 50%;
 }
 
+
 #author6 img {
     border-radius: 50%;
 }
-.horizontal_nav_bar:focus .sub-menu,
-.horizontal_nav_bar:focus-within .sub-menu,
-.horizontal_nav_bar:hover .sub-menu {
-  visibility: visible; /* shows sub-menu */
+
+
+.pictures img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 60%;
+	width: 60%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+		height: 100%;
+}
+
+#p1_image1, #p1_image2, #p1_image3 {
   opacity: 1;
-  z-index: 1;
-  transform: translateY(0%);
-  transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+	padding: 15px 15px;
+
+}
+
+.overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+	top: 3%;
+	left: 21%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.container:hover #p1_image1 {
+  opacity:;
+}
+.container:hover #p1_image2 {
+  opacity:;
+}
+.container:hover #p1_image3 {
+  opacity:;
+}
+
+.container:hover .middle {
+  opacity:;
+}
+
+.overlay {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
 }

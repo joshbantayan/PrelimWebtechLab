@@ -9,55 +9,9 @@
 	width: auto;
 	height: auto;
 	z-index: -100;
-<<<<<<< HEAD
-
-/*  making the video fullscreen  */
-z
-=======
-=======
-/*  making the video fullscreen  */
-#video-background {
-<<<<<<< HEAD
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
->>>>>>> 5bdd97ba67755b32a7eb7249c67dee17990802c4
-=======
-	position: fixed;
-	right: 0; 
-	bottom: 0;
-	min-width: 100%; 
-	min-height: 100%;
-	width: auto; 
-	height: auto;
-	z-index: -100;
->>>>>>> parent of 8058d30... Made css changes, mainly for About.html and footer
-}
-/*to easily position tabs text and etc*/
-body {
-    position: relative;
-    width: 100%;
-    height: 100%;
 }
 /*	------header/title------	*/
 .pg_caption {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-	/*header */
->>>>>>> parent of 8058d30... Made css changes, mainly for About.html and footer
-	color: #fff;
-	font-family: Helvetica;
-	text-shadow: 2px 2px 10px #000000;
-	font-size: 1.3em;
-<<<<<<< HEAD
-}
-=======
     /*header */
     text-align: center;
     color: #fff;
@@ -66,8 +20,6 @@ body {
     font-size: 1.3em;
     letter-spacing: 10px;
 }
->>>>>>> 8d94c9d8827c393161ea0fad99c08b825c138f66
-
 h1 {
     text-align: center;
     color: #fff;
@@ -75,11 +27,8 @@ h1 {
     text-shadow: 2px 2px 10px #000000;
     font-size: 2.3em;
     letter-spacing: 10px;
-=======
->>>>>>> parent of 8058d30... Made css changes, mainly for About.html and footer
 }
 
-<<<<<<< HEAD
 h2 {
     text-align: center;
     color: #fff;
@@ -89,9 +38,6 @@ h2 {
     letter-spacing: 10px;
 }
 
-=======
-
->>>>>>> 5bdd97ba67755b32a7eb7249c67dee17990802c4
 .horizontal_nav_bar ul {
     list-style-type: none;
     margin: 0;
@@ -102,28 +48,15 @@ h2 {
 .horizontal_nav_bar li {
     float: left;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 5bdd97ba67755b32a7eb7249c67dee17990802c4
-=======
-	
->>>>>>> parent of 8058d30... Made css changes, mainly for About.html and footer
 .horizontal_nav_bar li a {
 	display: block;
     color: white;
     text-align: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
 		font-size: .5cm;
     padding: 20px 30px;
-=======
     padding: 14px 30px 14px 30px;
->>>>>>> 5bdd97ba67755b32a7eb7249c67dee17990802c4
-=======
     padding: 14px 16px;
->>>>>>> parent of 8058d30... Made css changes, mainly for About.html and footer
     text-decoration: none;
 }
 .horizontal_nav_bar li a:hover:not(.active) {
@@ -132,15 +65,10 @@ h2 {
 .active {
     background-color: #4CAF50;
 }
-<<<<<<< HEAD
-=======
 
-<<<<<<< HEAD
 hr {
     opacity: 0;
 }
->>>>>>> 8d94c9d8827c393161ea0fad99c08b825c138f66
-
 
 p {
     tab-size: 8px;
@@ -281,11 +209,7 @@ hr {
 
 #author6 img {
     border-radius: 50%;
-<<<<<<< HEAD
-=======
->>>>>>> 5bdd97ba67755b32a7eb7249c67dee17990802c4
 }
-=======
 .horizontal_nav_bar:focus .sub-menu,
 .horizontal_nav_bar:focus-within .sub-menu,
 .horizontal_nav_bar:hover .sub-menu {
@@ -295,5 +219,3 @@ hr {
   transform: translateY(0%);
   transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
 }
->>>>>>> parent of 8058d30... Made css changes, mainly for About.html and footer
->>>>>>> 8d94c9d8827c393161ea0fad99c08b825c138f66

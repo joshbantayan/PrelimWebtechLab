@@ -8,6 +8,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+  
 }
 
 li {
@@ -21,6 +22,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     letter-spacing: 3px;
+      border: 1px solid #000;
 }
 
 li a:hover:not(.active) {
@@ -36,12 +38,12 @@ li a:hover:not(.active) {
 body, html {
     height: 100%;
 }
+/*title/header*/
 
 #title {
     background-image: url(/imgs/hbg1.jpg);
     height: 100%;
     background-size: cover;
-    color: black;
     align-items: left;
     color: white;
     padding-top: 200px;
@@ -56,17 +58,35 @@ body, html {
     align-items: left;
     font-size: 45px;
     text-align: center;
-    font-family: Arial;
+     font-family: Arial;
     letter-spacing: 2px;
     text-shadow: 3px 4px rgba(0, 0, 0, 0.4)
+
    
 }
 
-#home_body {
+/* content inside parallax*/
+
+#home_body_title{
+    font-size: 40px;
     text-align: center;
+    color: antiquewhite;
+    padding: 1px 1px 1px 1px;
+    background-color: rgba(34, 22, 128, 0.47);
+    border-bottom: solid 2px;
+    border-top: solid 2px;
+    border-color: #151596
+}
+#home_body {
+    font-family: Times New Roman;
+    text-align: justify;
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding: 30px 150px 30px 150px;
+    background-color: rgba(21, 21, 150, 0.46);
+    font-size: 23px;
+    border-bottom: solid 2px;
 }
 
 .page_title{
@@ -217,7 +237,11 @@ body {
     }
 }
 
-
+footer {
+    background-color: aqua;
+    border: 2px 2px solid;
+    border-color: black
+}
 
 
 

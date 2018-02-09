@@ -10,14 +10,14 @@
 	height: auto;
 	z-index: -100;
 }
-
+/* website_logo position with border*/
 .website_logo {
 	position: relative;
 	width: 200px;
 	height: 150px;
 	border: 3px solid #333;
 }
-
+/* header 1 */
 h1 {
     text-align: center;
     color: #fff;
@@ -26,7 +26,7 @@ h1 {
     font-size: 2.3em;
     letter-spacing: 10px;
 }
-
+/* header 2 */
 h2 {
     text-align: center;
     color: #fff;
@@ -35,6 +35,7 @@ h2 {
     font-size: 2.3em;
     letter-spacing: 10px;
 }
+/* all horizontal_nav_bar position and styles */
 .horizontal_nav_bar ul {
 	position: absolute;
   list-style-type: none;
@@ -46,11 +47,9 @@ h2 {
 	left: 15.70%;
 	top: 8%;
 }
-
 .horizontal_nav_bar li {
     float: left;
 }
-
 .horizontal_nav_bar ul li a {
 		display: block;
     color: white;
@@ -59,16 +58,12 @@ h2 {
     padding: 20px 50px;
     text-decoration: none;
 }
-
 .horizontal_nav_bar ul li a:hover:not(.active) {
     background-color: #111;
 }
-
 .active {
     background-color: #4CAF50;
 }
-
-
 .horizontal_nav_bar:focus .sub-menu,
 .horizontal_nav_bar:focus-within .sub-menu,
 .horizontal_nav_bar:hover .sub-menu {
@@ -78,33 +73,9 @@ h2 {
   transform: translateY(0%);
   transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
 }
+/* --------------------------------------------------*/
 
-.vertical_nav_bar {
-    position: relative;
-    width: 220px;
-    height: 70px;
-    border: 3px solid #73AD21;
-}
-
-.vertical_nav_bar ul {
-    position: absolute;
-		top: 30px;
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: #333;
-}
-
-.vertical_nav_bar ul li a {
-	display: block;
-    color: white;
-    text-align: center;
-		font-size: .5cm;
-    padding: 10px 10px;
-    text-decoration: none;
-}
-
+/* home content, background color and border */
 #home_maincontent p {
 		border: 1px solid Black;
 		background-color: darkseagreen;
@@ -115,16 +86,72 @@ h2 {
 		margin-left: 15%;
 		padding: 25px 15px;
 }
-
+/* home content position */
 #home_maincontent {
     opacity: 2;
     position: relative;
 		font-size: .8cm;
 }
 
+.pictures img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 60%;
+	width: 60%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+		height: 100%;
+}
+
+#p1_image1, #p1_image2, #p1_image3 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+	padding: 15px 15px;
+
+}
+
+.overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+	top: 3%;
+	left: 21%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.container:hover #p1_image1 {
+  opacity:;
+}
+.container:hover #p1_image2 {
+  opacity:;
+}
+.container:hover #p1_image3 {
+  opacity:;
+}
+
+.container:hover .middle {
+  opacity:;
+}
+
+.overlay {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  padding: 16px 32px;
+}
 
 /*footer section*/
-
 .footer {
     background-color: #292c2f;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -200,19 +227,67 @@ h2 {
   transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
 }
 
-hr{
-	position: absolute;
-	bottom: 0
-	opacity: 0;
-}
-br {
-	display: none;
-}
-
 .footer p {
     text-align: center;
     display: inline-block;
 }
+
+/* wala na */
+hr{
+	position: absolute;
+	bottom: 0
+	opacity: 0;
+	display: none;
+}
+br {
+	display: none;
+}
+/* --------------    */
+
+/* Environmental Protection Projects */
+/* vertical_nav_bar position and styles */
+.vertical_nav_bar {
+    position: relative;
+    width: 100%;
+    border: 3px solid #333;
+}
+.vertical_nav_bar ul {
+    position: center;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+}
+.vertical_nav_bar ul li a {
+	display: block;
+    color: white;
+    text-align: center;
+		font-size: .5cm;
+    padding: 19px 10px;
+    text-decoration: none;
+}
+.vertical_nav_bar ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#project_maincontent p {
+	border: 1px solid Black;
+	background-color: darkseagreen;
+	tab-size: 8px;
+	font: sans-serif;
+	color: black;
+	margin-right: 15%;
+	margin-left: 15%;
+	padding: 0px 15px;
+}
+#project_maincontent p {
+    opacity: 2;
+    position: relative;
+		font-size: .8cm;
+}
+/* --------------------------------------------------*/
+
 
 /*About page*/
 
@@ -250,63 +325,4 @@ br {
 
 #author6 img {
     border-radius: 50%;
-}
-
-
-.pictures img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 60%;
-	width: 60%;
-}
-
-.container {
-    position: relative;
-    width: 100%;
-		height: 100%;
-}
-
-#p1_image1, #p1_image2, #p1_image3 {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-	padding: 15px 15px;
-
-}
-
-.overlay {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-	top: 3%;
-	left: 21%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-
-}
-
-.container:hover #p1_image1 {
-  opacity:;
-}
-.container:hover #p1_image2 {
-  opacity:;
-}
-.container:hover #p1_image3 {
-  opacity:;
-}
-
-.container:hover .middle {
-  opacity:;
-}
-
-.overlay {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 20px;
-  padding: 16px 32px;
 }

@@ -33,7 +33,6 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #151596;
     
     
 }
@@ -69,8 +68,7 @@ h2{
 
 #title_container {
     padding-top: 10px;
-    border-left: 50px solid;
-    border-right: 50px solid;
+
     border-color: rgba(34, 24, 109, 0.7);
     background-color: rgba(29, 24, 152, 0.33);
     width: 1525px;
@@ -85,7 +83,7 @@ h2{
 }
 
 #title_container p+p{
-    background-color: rgba(21, 21, 150, 0.51);
+    padding-bottom: 20px;
     font-size: 30px;
 }
 

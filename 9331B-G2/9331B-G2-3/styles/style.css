@@ -57,8 +57,7 @@ h2 {
 		font-size: .6cm;
     padding: 20px 50px;
     text-decoration: none;
-    font-family: "FUTURIST";
-    letter-spacing: -5px;
+    font-family: "Louis";
 }
 .horizontal_nav_bar ul li a:hover:not(.active) {
     background-color: #afd0bf;
@@ -78,21 +77,22 @@ h2 {
 /* --------------------------------------------------*/
 
 /* home content, background color and border */
-#home_maincontent p {
-		border: 1px solid Black;
-		background-color: darkseagreen;
+#home_maincontent p {		background-color: rgba(175, 208, 191, 0.86) ;
     tab-size: 8px;
-    font: sans-serif;
-    color: black;
+    color: #333;
 		margin-right: 15%;
 		margin-left: 15%;
 		padding: 25px 15px;
+    text-align: right;
+     box-shadow: 8px 8px #778789;
 }
 /* home content position */
 #home_maincontent {
     opacity: 2;
     position: relative;
-		font-size: .8cm;
+    font-size: .8cm;
+    font-family: "Louis";
+     text-align: right;
 }
 
 .pictures img {
@@ -147,10 +147,13 @@ h2 {
 }
 
 .overlay {
-  background-color: #4CAF50;
+  background-color: rgba(175, 208, 191, 0.85);
   color: white;
   font-size: 20px;
   padding: 16px 32px;
+    font-family: "Louis";
+    color: #333;
+    box-shadow: 3px 3px #778789;
 }
 
 /*footer section*/
@@ -160,9 +163,10 @@ h2 {
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: normal 16px sans-serif;
+    font-family: "LOUIS";
     padding: 20px 20px;
     margin-top: 50px;
+    
 }
 
 .footer_links {
@@ -173,11 +177,11 @@ h2 {
 }
 
 .footer_links a:hover:not(.active) {
-    color: darkseagreen;
+    color: #afd0bf;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #afd0bf;
 }
 
 .footer_links a {
@@ -185,6 +189,7 @@ h2 {
     display: inline-block;
     color: floralwhite;
     padding-right: 50px;
+     
 }
 
 .footer .container {
@@ -220,6 +225,7 @@ h2 {
     opacity: 0;
     transition: .5s ease;
     background-color: darkseagreen;
+    font-family: "LOUIS";
 }
 
 .container:hover .overlay {
@@ -337,4 +343,9 @@ br {
 @font-face {
     font-family: "FUTURIST";
     src: url("fonts/FUTRFW.TTF")
+}
+
+@font-face {
+    font-family: "Louis";
+    src: url("fonts/Louis George Cafe.TTF")
 }

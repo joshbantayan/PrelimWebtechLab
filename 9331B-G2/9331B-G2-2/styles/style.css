@@ -43,6 +43,7 @@ body, html {
 }
 /*title/header*/
 
+
 #title {
     background-image: url(/imgs/hbg1.jpg);
     height: 100%;
@@ -53,8 +54,21 @@ body, html {
     box-shadow: 5px 10px 18px #888888;
     
 }
+h1{
+    background-color: rgba(21, 21, 150, 0.59);
+    align-items: center;
+}
+
+h2{
+    background-color: rgba(21, 21, 150, 0.57);
+}
+
+.page_title {
+    background-color: aqua;
+}
 
 #title_container {
+    padding-top: 10px;
     border-left: 50px solid;
     border-right: 50px solid;
     border-color: rgba(34, 24, 109, 0.7);
@@ -63,7 +77,6 @@ body, html {
     align-items: left;
     font-size: 60px;
     text-align: center;
-    font-family: Arial;
     letter-spacing: 2px;
     text-shadow: 3px 4px rgba(0, 0, 0, 0.4);
     box-shadow: 5px 10px 18px #888888;
@@ -90,7 +103,8 @@ body, html {
     text-shadow: 3px 4px rgba(0, 0, 0, 0.4)
 }
 #home_body {
-    font-family: Times New Roman;
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    font-family: 'Open Sans', sans-serif;
     color: midnightblue;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
     text-align: justify;
@@ -152,6 +166,7 @@ body, html {
     grid-column: 3;
 }
 
+/*gallery*/
 
 
 /*
@@ -277,9 +292,29 @@ body {
 }
 
 footer {
-    background-color: aqua;
-    border: 
-    border-color: black
+   background-color: rgba(34, 24, 109, 0.72);
+   padding-top: 2px;
+ border-top: 2px solid;
+    text-align: center;
+    
+
+}
+a:link {
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+a:hover, a:active{
+    background-color: rgba(26, 30, 118, 0.86);
+    transition: background-color 0.5s ease-out;
+}
+
+footer p+p{
+    color: wheat;
+    padding: 5px 0px 5px 0px;
+    border-top: 5px solid;
 }
 
 

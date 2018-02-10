@@ -36,16 +36,23 @@ h2 {
     letter-spacing: 10px;
 }
 /* all horizontal_nav_bar position and styles */
+
+.horizontal_nav_bar {
+	position: relative;
+	height: 20%;
+	width: 89.10%;
+	top: -285px;
+	left: 10.90%;
+	border: 3px;
+}
 .horizontal_nav_bar ul {
-	position: absolute;
+
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-	right: 0%;
-	left: 15.70%;
-	top: 8%;
+
 }
 .horizontal_nav_bar li {
     float: left;

@@ -1,38 +1,43 @@
-
 /*	------making the video fullscreen------	*/
+
 body {
-	position: relative;
-	width: 100%;
-    background-color: #afd0bf;
+    position: relative;
+    width: 100%;
+    position: absolute;
+    display: block;
+    margin: 0;
+
 }
 
 body #video-background {
-	position: absolute;
+    position: absolute;
+    width: 100%;
 }
 
 
 #video-background {
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	min-width: 100%;
-	min-height: 100%;
-	width: 100%;
-	height: 100%;
-	z-index: -100;
-	top: -35%;
-   
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    top: -40%;
 }
+
 /* website_logo position with border*/
+
 .website_logo {
-	position: relative;
-	width: 200px;
-	height: 200px;
-	border: 3px solid #333;
-    background-color: rgba(255, 255, 255, 0.52);
-    text-align: center;
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    border: 3px solid rgba(51, 51, 51, 0.81);
+
 }
+
 /* header 1 */
+
 h1 {
     text-align: center;
     color: #fff;
@@ -41,62 +46,74 @@ h1 {
     font-size: 4.3em;
     letter-spacing: 10px;
 }
+
 /* header 2 */
+
 h2 {
     text-align: center;
     color: #fff;
     font-family: "FUTURIST";
     text-shadow: 2px 2px 10px #000000;
     font-size: 3.3em;
-    letter-spacing:-15px;
+    letter-spacing: -15px;
 }
+
 /* all horizontal_nav_bar position and styles */
 
 .horizontal_nav_bar {
-	position: relative;
-	height: 20%;
-	width: 89.10%;
-	top: -400px;
-	left: 10.90%;
-	border: 3px;
+    position: relative;
+    height: 20%;
+    width: 89.10%;
+    top: -400px;
+    left: 10.90%;
+    border: 3px;
     margin: 0px 60px;
 }
+
 .horizontal_nav_bar ul {
 
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 
 }
+
 .horizontal_nav_bar li {
     float: left;
 }
+
 .horizontal_nav_bar ul li a {
-		display: block;
+    display: block;
     color: white;
     text-align: center;
-		font-size: .6cm;
+    font-size: .cm;
     padding: 20px 50px;
     text-decoration: none;
     font-family: "Louis";
 }
+
 .horizontal_nav_bar ul li a:hover:not(.active) {
     background-color: #afd0bf;
 }
+
 .active {
     background-color: #4CAF50;
 }
+
 .horizontal_nav_bar:focus .sub-menu,
 .horizontal_nav_bar:focus-within .sub-menu,
 .horizontal_nav_bar:hover .sub-menu {
-  visibility: visible; /* shows sub-menu */
-  opacity: 1;
-  z-index: 1;
-  transform: translateY(0%);
-  transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+    visibility: visible;
+    /* shows sub-menu */
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(0%);
+    transition-delay: 0s, 0s, 0.3s;
+    /* this removes the transition delay so the menu will be visible while the other styles transition */
 }
+
 /* --------------------------------------------------*/
 
 /* home content, background color and border */
@@ -105,8 +122,7 @@ h2 {
     background-color: rgba(175, 208, 191, 0.86);
     tab-size: 8px;
     color: #333;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin: 100px 150px 50px 150px;
     padding: 25px 15px;
     text-align: right;
     box-shadow: 8px 8px #778789;
@@ -127,7 +143,7 @@ h2 {
 /* project main content, background color and border */
 
 #project_maincontent p {
-     background-color: rgba(175, 208, 191, 0.86);
+    background-color: rgba(175, 208, 191, 0.86);
     tab-size: 8px;
     color: #333;
     margin: 0px 200px 0px 300px;
@@ -139,7 +155,7 @@ h2 {
 /* project main content position */
 
 #project_maincontent {
-   opacity: 2;
+    opacity: 2;
     position: relative;
     font-size: .8cm;
     font-family: "Louis";
@@ -338,7 +354,7 @@ br {
     font-size: .5cm;
     padding: 19px 10px;
     text-decoration: none;
-    font-family:"Louis";
+    font-family: "Louis";
 }
 
 .vertical_nav_bar ul li a:hover:not(.active) {

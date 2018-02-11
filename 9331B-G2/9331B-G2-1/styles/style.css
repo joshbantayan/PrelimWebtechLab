@@ -1,0 +1,107 @@
+body{
+    background-image: url(../pictures/Photo%2002-02-2018,%201%2051%2058%20PM_preview.jpeg);
+    height: 1920px 1080px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: "Arial Black", Gadget, sans-serif;
+    top: 0;
+    color: #EBF7E3;
+    font-size: 30px;
+    height: 200px;
+    text-align: center;  
+}
+
+h2{
+    font-family: "Arial Black", Gadget, sans-serif;
+    top: 0;
+    color: #EBF7E3;
+    font-size: 30px;
+    height: 200px;
+    text-align: center; 
+}
+
+h3{
+    color: #EBF7E3;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+    color: #EBF7E3;
+    text-align: center;
+}
+
+nav {
+    position: relative;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    height: 700px;
+    display: inline; 
+    list-style-type: none;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+nav a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.pictures-container{
+    top: 1080px;
+    
+}
+
+.footer{
+    position: absolute;
+    left: 650px;
+    top: 1750px;
+}
+
+.footer p {
+}
+
+.footer ul{
+}
+
+.footer li {
+    color: #EBF7E3;
+    display: block;
+    text-align: justify;
+}
+
+.footer h3 {
+    color: #EBF7E3;
+    text-align: center;
+}
+
+a {
+    color: #EBF7E3;
+}
+
+a:visited {
+    color: #EBF7E3;
+}
+
+a:hover {
+    color: #375F1B;
+}
+    
+a:active {
+    color: #375F1B;
+}
+
+img {
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

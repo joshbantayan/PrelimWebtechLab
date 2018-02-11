@@ -139,7 +139,7 @@ h3 {
     object-fit: cover;
     width: 95%;
     height: 100%;
-    border: 5px solid rgba(255, 255, 255, 0.56);
+    border: 15px solid rgba(255, 255, 255, 0.56);
     text-align: center;
 
 }
@@ -149,7 +149,6 @@ h3 {
    grid-template-columns: auto auto auto;
     grid-template-rows: 20vh 30vh;
     align-content: center;
-    background-color:rgba(194, 231, 245, 0.72);
 }
 
 .pictures .e {
@@ -631,7 +630,7 @@ br {
 
 @font-face {
     font-family: "Hehe";
-    src: url("fonts/Copperhead Condensed_Demo.ttf")
+    src: url("fonts/Louis George Cafe Bold Italic.ttf")
 }
 
 @font-face {

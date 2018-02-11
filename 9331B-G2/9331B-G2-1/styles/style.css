@@ -56,20 +56,23 @@ nav a {
 }
 
 .pictures-container{
-    top: 1080px;
-    
+    position: absolute;
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    grid-template-rows: 50vh 50vh;
+    grid-gap: 5px;
+    top: 1070px;
+}
+
+.pictures-container img{
+    width: 100%;
+    height: 100%;
 }
 
 .footer{
     position: absolute;
     left: 650px;
     top: 1750px;
-}
-
-.footer p {
-}
-
-.footer ul{
 }
 
 .footer li {

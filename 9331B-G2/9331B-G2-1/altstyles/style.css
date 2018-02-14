@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+}
+
+.hero-banner {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.hero-banner h1 {
+    position: absolute;
+    color: white;
+    font-family: "Merriweather";
+    font-size: 100px;
+    margin-left: 80px;
+    margin-top: 300px;
+    animation: fade-in 3s ease;
+    transition: 1s ease;
+}
+
+.hero-banner h2 {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 30px;
+    margin-left: 150px;
+    margin-top: 430px;
+    animation: fade-in 4s ease-in;
+}
+
+nav {
+    position: fixed;
+    top:0;
+    right: 0;
+    color: white;
+    font-family: "Open Sans";
+    margin-top: 60vh;
+    margin-right: 50px;
+    background-color: rgba(0,0,0,0);
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+    animation: fade-in 5s ease-in;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: white;
+    transform: scale(1.1)
+}
+
+.pictures-container img{
+    height: 0;
+    
+}
+
+.pictures-container img+img+img {
+    height: 100vh;
+    width: 100%;
+    text-align: center;   
+}
+
+.pictures-container + p{
+    font-family: "Open Sans";
+    width: 50%;
+    position: absolute;
+    height: 50vh;
+    background-color: white;
+    margin-top:-500px;
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url("Merriweather/Merriweather-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("Open_Sans/OpenSans-Regular.ttf");
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100 { opacity: 1; }
+}

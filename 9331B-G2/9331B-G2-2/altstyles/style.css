@@ -1,0 +1,36 @@
+@font-face{
+    font-family: "market";
+    src: url("font/Market_Deco.ttf");
+}
+
+@font-face{
+    font-family: "bebas";
+    src: url("font/BebasNeue-Regular.otf");
+}
+body {
+    margin: 0;
+}
+#title {
+    align-content: center;
+    background-color: #21363D;
+    height: 800px;
+}
+
+#title_container {
+    box-shadow: 5px 10px 18px #000;
+    margin-top: 150px;
+    width: 100%;
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    font-family: "Market";
+     text-shadow: 3px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    background-color: #2A4A67;
+}
+
+#title_container p+p {
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-family: "bebas";
+}

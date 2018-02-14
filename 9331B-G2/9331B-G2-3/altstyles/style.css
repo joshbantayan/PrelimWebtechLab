@@ -1,0 +1,212 @@
+/*BODY*/
+
+body {
+    background-color: #6cb4c8;
+    overflow-x: hidden;
+}
+
+
+/*HEADERS and PARAGRAPHS*/
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Good Vibes";
+    font-size: 80px;
+    margin: 30px 0px 0px 0px;
+}
+
+h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Bebas";
+    font-size: 50px;
+    margin: 0;
+}
+
+h3 {
+    text-align: left;
+    color: whitesmoke;
+    font-family: "Louis";
+    font-size: 35px;
+    padding: 0;
+}
+
+h4 {
+    text-align: left;
+    color: whitesmoke;
+    font-family: "Bebas";
+    font-size: 30px;
+    padding: 0;
+}
+
+p {
+    text-align: left;
+    color: whitesmoke;
+    font-family: "Louis";
+    font-size: 20px;
+    padding: 0;
+}
+
+
+/*LOGO -- TO BE EDITEDDDDDDDD!!!!!*/
+
+.website_logo img {
+    position: absolute;
+    width: 20vh;
+    height: 20vh;
+    left: 50vh;
+}
+
+
+/*NAV BAR*/
+
+.horizontal_nav_bar ul {
+    list-style-type: none;
+    margin: 50px 0px 0px 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #043d5d;
+}
+
+.horizontal_nav_bar li {
+    float: left;
+    width: 25%;
+    margin: auto;
+}
+
+.horizontal_nav_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Bebas";
+    font-size: 30px;
+}
+
+.horizontal_nav_bar li a:hover {
+    background-color: #87d2b4;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    background-color: #043d5d;
+    width: 100%;
+    text-align: left;
+    font-family: "LOUIS";
+    padding: 20px 20px;
+    margin-top: 50px;
+    height: 10%;
+}
+
+.footer .hr {
+    opacity: 1;
+    color: #9bd1e5;
+}
+
+.footer_links {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer_links a:hover:not(.active) {
+    color: #afd0bf;
+}
+
+.active {
+    background-color: #87d2b4;
+}
+
+.footer_links a {
+    text-decoration: none;
+    display: inline-block;
+    color: floralwhite;
+    padding-right: 50px;
+}
+
+.footer .container {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+.footer .container img {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 5px;
+    float: left;
+    padding-right: 10px;
+    padding-left: 50px;
+}
+
+.footer .container .overlay {
+    opacity: 0;
+    position: absolute;
+}
+
+
+/*HOME PAGE*/
+
+
+/*PROJECTS PAGE*/
+
+
+/* PROJECTS PAGE - WASTE*/
+
+
+/* PROJECTS PAGE - CLEAN AND GREEN*/
+
+
+/* ABOUT PAGE*/
+#author1 img,
+#author2 img,
+#author3 img,
+#author4 img,
+#author5 img,
+#author6 img {
+    border-radius: 50%;
+    float: left;
+    margin: 0px 2px 0px 2px;
+}
+
+#author1,
+#author2,
+#author3,
+#author4,
+#author5,
+#author6 {
+    width: 45%;
+    display: block;
+    float: left;
+}
+
+/* CONTACT US PAGE*/
+
+
+
+/*FONTS*/
+
+@font-face {
+    font-family: "Good Vibes";
+    src: url("fonts/Good Vibes - Demo.ttf")
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("fonts/BebasNeue-Regular.ttf")
+}
+
+@font-face {
+    font-family: "Louis";
+    src: url("fonts/Louis George Cafe.TTF")
+}

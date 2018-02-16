@@ -223,13 +223,14 @@ video {
 .waste_pictures {
     position: relative;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 45%;
     width: 100%;
+    border: 3px solid #333;
 }
 #waste_image1 img, #waste_image2 img {
     display: block;
-    border: 15px solid rgba(255, 255, 255, 0.56);
-    width: 600px;
+    border: 5px solid rgba(255, 255, 255, 0.56);
+    width: 500px;
     height: 100%;
 }
 .overlay {
@@ -262,14 +263,14 @@ video {
 .cg_pictures1 {
     position: relative;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 45%;
     width: 100%;
     height: 450px;
 }
 #cg_image1 img, #cg_image2 img {
     display: block;
-    border: 15px solid rgba(255, 255, 255, 0.56);
-    width: 600px;
+    border: 5px solid rgba(255, 255, 255, 0.56);
+    width: 550px;
     height: 100%;
 }
 /*CLEAN*/
@@ -289,7 +290,7 @@ div #clean_image4 {grid-area: right;}
     grid-gap: 10px;
     padding: 10px;
     grid-template-columns: 30% 30%;
-    height: 520px;
+    height: 500px;
 }
 /*GREEN*/
 .green_pictures div img {
@@ -318,7 +319,7 @@ div #green_image34 {grid-area: bright;}
     'bleft bright';
     grid-gap: 10px;
     padding: 10px;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 40%;
     height: 900px;
 }
 /* ABOUT PAGE*/

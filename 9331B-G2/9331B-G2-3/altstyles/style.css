@@ -51,19 +51,22 @@ p {
 
 /*LOGO -- TO BE EDITEDDDDDDDD!!!!!*/
 
-.website_logo img {
-    position: absolute;
+div.website_logo {
+  position: absolute;
+  width: 29%;
+}
+
+div.website_logo img {
     width: 20vh;
     height: 20vh;
-    left: 50vh;
+
 }
 
 
 /*NAV BAR*/
-
 .horizontal_nav_bar ul {
     list-style-type: none;
-    margin: 50px 0px 0px 0px;
+    margin: 50px 10px 10px 10px;
     padding: 0;
     overflow: hidden;
     background-color: #043d5d;
@@ -89,9 +92,32 @@ p {
     background-color: #87d2b4;
 }
 
+/* video */
+video {
+    position: relative;
+    border: 3px solid #333;
+    max-width: 100%;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* pictures */
+.pictures div img {
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.56);
+    text-align: center;
+}
+.pictures {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.container  {
+    height: 100%;
+    width: 250px;
+}
 
 /*FOOTER*/
-
 .footer {
     background-color: #043d5d;
     width: 100%;
@@ -159,14 +185,142 @@ p {
 
 
 /*PROJECTS PAGE*/
+.vertical_nav_bar ul {
+    position: relative;
+    list-style-type: none;
+    margin: 50px 10px 10px 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #043d5d;
+    width: 25%;
+}
 
+.vertical_nav_bar li {
+    float: center;
 
+}
+
+.vertical_nav_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Bebas";
+    font-size: 20px;
+}
+
+.vertical_nav_bar li a:hover {
+    background-color: #87d2b4;
+}
 /* PROJECTS PAGE - WASTE*/
-
-
+.waste_pictures div img {
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.56);
+    text-align: center;
+    margin: 0px 30px 0px 30px;
+}
+.waste_pictures {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+#waste_image1 img, #waste_image2 img {
+    display: block;
+    border: 15px solid rgba(255, 255, 255, 0.56);
+    width: 600px;
+    height: 100%;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 50%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
 /* PROJECTS PAGE - CLEAN AND GREEN*/
 
+.cg_pictures1 div img {
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.56);
+    text-align: center;
+    margin: 0px 30px 0px 30px;
+    height: 100%;
+    width: 100%;
+}
+.cg_pictures1 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 450px;
+}
+#cg_image1 img, #cg_image2 img {
+    display: block;
+    border: 15px solid rgba(255, 255, 255, 0.56);
+    width: 600px;
+    height: 100%;
+}
+/*CLEAN*/
+.clean_pictures h3 {
+    grid-area: top;
+    text-align: center;
+  }
+div #clean_image1 {grid-area: left;}
+div #clean_image2 {grid-area: middle;}
+div #clean_image4 {grid-area: right;}
+.clean_pictures {
+    display: grid;
+    grid-template-areas:
+    'top top top top top top'
+    'left left middle middle right right'
+    'left left middle middle right right';
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-columns: 30% 30%;
+    height: 520px;
+}
+/*GREEN*/
+.green_pictures div img {
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.56);
+    text-align: center;
+    margin: 0px 30px 0px 30px;
+}
+.green_pictures div {
+    margin-left: 23px;
+}
 
+.green_pictures h3 {
+    grid-area: top;
+    text-align: center;
+  }
+div #green_image1 {grid-area: tleft;}
+div #green_image2 {grid-area: tright;}
+div #green_image3 {grid-area: bleft;}
+div #green_image34 {grid-area: bright;}
+.green_pictures {
+    display: grid;
+    grid-template-areas:
+    'top top'
+    'tleft tright'
+    'bleft bright';
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-columns: 50% 50%;
+    height: 900px;
+}
 /* ABOUT PAGE*/
 #author1 img,
 #author2 img,
@@ -178,16 +332,16 @@ p {
     float: left;
     margin: 0px 2px 0px 2px;
 }
-
-#author1,
-#author2,
-#author3,
-#author4,
-#author5,
-#author6 {
+div #author1,
+div #author2,
+div #author3,
+div #author4,
+div #author5,
+div #author6 {
     width: 45%;
-    display: block;
+    display: grid;
     float: left;
+    margin: 10px 50px 2px 2px;
 }
 
 /* CONTACT US PAGE*/
@@ -209,4 +363,12 @@ p {
 @font-face {
     font-family: "Louis";
     src: url("fonts/Louis George Cafe.TTF")
+}
+
+br {
+  position: absolute;
+}
+hr {
+  position: absolute;
+  opacity: 0px;
 }

@@ -7,12 +7,24 @@
     font-family: "bebas";
     src: url("font/BebasNeue-Regular.otf");
 }
+@font-face {
+    font-family: "BearHugs";
+    src: url("font/BEARHUGSBYRATTICSASSIN-Regular.ttf");
+}
+@font-face{
+    font-family: "amaticBold";
+    src: url("font/Amatic-Bold.ttf");
+}
+@font-face{
+    font-family: "amatic";
+    src: url("font/AmaticSC-Regular.ttf");
+}
 body {
     margin: 0;
 }
 #title {
     align-content: center;
-    background-color: #21363D;
+    background-color: #0B5351;
     height: 800px;
 }
 
@@ -22,15 +34,112 @@ body {
     width: 100%;
     position: absolute;
     font-size: 70px;
-    color: white;
+    color: #0B5351;
     font-family: "Market";
      text-shadow: 3px 4px rgba(0, 0, 0, 0.4);
     text-align: center;
-    background-color: #2A4A67;
+    background-color: #E28413;
 }
 
 #title_container p+p {
     letter-spacing: 5px;
     font-size: 40px;
     font-family: "bebas";
+}
+/* Navigation Bar */
+#menu {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #092327;
+    overflow-x: hidden;
+    padding-top: 20px;
+    list-style-type:none;
+    opacity: 0.9;
+}
+
+#menu a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    font-family: "amaticBold";
+    font-size: 30px;
+    list-style-type:none;
+}
+
+#menu a:hover {
+    color: #f1f1f1;
+}
+ul {
+    list-style-type:none;
+}
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/*body fonts*/
+
+
+body {
+    margin-left: 180px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    font-family: "amatic";
+}
+
+/*barangay activities1*/
+#brgy_p1_wrapper hph{
+    height: 100%;
+    width: 100%;
+}
+
+#brgy_p1_wrapper img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 1vh;
+}
+
+#brgy_p1_wrapper{
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    grid-template-rows: 50vh 50vh;
+    grid-gap: 5px;
+}
+
+#brgy_p1_wrapper .e{
+    grid-row: 1/3;
+    grid-column: 3;
+}
+
+#brgy_p2_wrapper hph{
+    height: 100%;
+    width: 100%;
+}
+
+#brgy_p2_wrapper img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding: 1vh;
+}
+
+#brgy_p2_wrapper{
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    grid-template-rows: 50vh 50vh;
+    grid-gap: 5px;
+}
+
+#brgy_p2_wrapper .e{
+    grid-row: 1/3;
+    grid-column: 3;
 }

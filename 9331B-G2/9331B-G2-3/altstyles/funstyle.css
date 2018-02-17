@@ -1,0 +1,72 @@
+/*HEADERS and PARAGRAPHS*/
+
+h1 {
+    text-align: center;
+    color: gray;
+    font-family: "Good Vibes";
+    font-size: 80px;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: gray;
+    font-family: "Bebas";
+    font-size: 50px;
+    padding: 0;
+}
+
+h3 {
+    text-align: left;
+    color: gray;
+    font-family: "Louis";
+    font-size: 30px;
+    padding: 0;
+}
+
+p{
+    text-align: left;
+    color: gray;
+    font-family: "Louis";
+    font-size: 20px;
+    padding: 0;
+}
+
+
+/*LOGO*/
+
+
+/*HOME PAGE*/
+
+
+/*PROJECTS PAGE*/
+
+
+/* PROJECTS PAGE - WASTE*/
+
+
+/* PROJECTS PAGE - CLEAN AND GREEN*/
+
+
+/* ABOUT PAGE*/
+
+
+/* CONTACT US PAGE*/
+
+
+/*FONTS*/
+
+@font-face {
+    font-family: "Good Vibes";
+    src: url("fonts/Good Vibes - Demo.ttf")
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("fonts/BebasNeue-Regular.ttf")
+}
+
+@font-face {
+    font-family: "Louis";
+    src: url("fonts/Louis George Cafe.TTF")
+}

@@ -426,7 +426,6 @@ div #green_image34 {
 }
 
 /* ABOUT PAGE*/
-
 #author1 img,
 #author2 img,
 #author3 img,
@@ -439,18 +438,6 @@ div #green_image34 {
     border: 1px solid #333;
     height: auto;
 }
-
-#author1 p,
-#author2 p,
-#author3 p,
-#author4 p,
-#author5 p,
-#author6 p {
-    ;
-    float: left;
-    margin: 0px 2px 0px 2px;
-}
-
 div #author1,
 div #author2,
 div #author3,
@@ -486,7 +473,7 @@ div #author6 h3 {
 /* CONTACT US PAGE*/
 #contacts_mid, #contacts_right{
     border: 3px dotted rgba(255, 255, 255, 0.56);
-    background-color:#8ccca2; 
+    background-color:#8ccca2;
     width: 50%;
     margin: auto;
     padding: 2%;

@@ -106,11 +106,6 @@ video {
 
 /* pictures */
 
-.pictures div img {
-    object-fit: cover;
-    border: 2px solid rgba(255, 255, 255, 0.56);
-    text-align: center;
-}
 
 .pictures div img:hover {
     filter: none;
@@ -205,6 +200,8 @@ video {
     background-color: #8ccca2;
     padding: 1%;
     margin: 1%;
+    border-style: dotted;
+    border-color: rgba(255, 255, 255, 0.85);
 }
 
 /*PROJECTS PAGE*/
@@ -239,13 +236,16 @@ video {
 }
 
 /* PROJECTS PAGE - WASTE*/
-#waste_content{
+
+#waste_content {
     background-color: #8ccca2;
     padding: 1%;
     margin: 1%;
+    border-style: dotted;
+    border-color: rgba(255, 255, 255, 0.85);
 }
 
-.waste_pictures div img{
+.waste_pictures div img {
     object-fit: cover;
     border: 2px solid rgba(255, 255, 255, 0.56);
     text-align: center;
@@ -270,7 +270,7 @@ video {
 }
 
 #waste_image1 img,
-#waste_image2 img{
+#waste_image2 img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
@@ -298,10 +298,12 @@ video {
     width: 100%;
     filter: none;
 }
-.cg_pictures1 div img{
+
+.cg_pictures1 div img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
+
 .cg_pictures1 {
     position: relative;
     display: grid;
@@ -320,16 +322,22 @@ video {
 
 /*CLEAN*/
 
-#cg_content, #green_content{
+#cg_content,
+#green_content {
     background-color: #8ccca2;
     padding: 1%;
     margin: 1%;
+    border-style: dotted;
+    border-color: rgba(255, 255, 255, 0.85);
 }
 
-#clean_content, #project_maincontent{
+#clean_content,
+#project_maincontent {
     background-color: #fac25d;
     padding: 1%;
     margin: 1%;
+    border-style: dotted;
+    border-color: rgba(255, 255, 255, 0.85);
 }
 
 .clean_pictures h3 {
@@ -358,9 +366,25 @@ div #clean_image4 {
     height: 500px;
 }
 
+.clean_pictures div img{
+      -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.clean_pictures div img:hover{
+    filter:none;
+    border: 2px solid rgba(255, 255, 255, 0.56);
+}
+
 /*GREEN*/
 
-.green_pictures div img {
+.green_pictures div img{
+      -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.green_pictures div img:hover {
+    filter: none;
     object-fit: cover;
     border: 2px solid rgba(255, 255, 255, 0.56);
     text-align: center;
@@ -438,6 +462,14 @@ div #author6 {
 }
 
 /* CONTACT US PAGE*/
+#contacts_mid, #contacts_right{
+    border: 3px dotted rgba(255, 255, 255, 0.56);
+    background-color:#8ccca2; 
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+}
+
 
 /*FONTS*/
 

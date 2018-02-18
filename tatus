@@ -1,0 +1,548 @@
+[33mcommit 9d1ca006e3bef416d78e7112b8adbe20d331bc42[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ivy mae palma <35758420+aybimey@users.noreply.github.com>
+Date:   Sun Feb 18 15:56:29 2018 +0800
+
+    update css
+
+[33mcommit ca9c4293390eb4b88e703d11f570822da8702bf6[m
+Author: gabozkhi <gabrielbucsit5@gmail.com>
+Date:   Sun Feb 18 15:52:21 2018 +0800
+
+    Updated css file
+
+[33mcommit 96d85fda4879cd6dc7b81c1f725170afd0ffa893[m
+Author: ivy mae palma <35758420+aybimey@users.noreply.github.com>
+Date:   Sun Feb 18 14:55:39 2018 +0800
+
+    update css
+
+[33mcommit 23616d520ac41b6f6a97f49d5dacea37ccf986b3[m
+Author: joshbantayan <joshuabantayan31@gmail.com>
+Date:   Sun Feb 18 12:22:52 2018 +0800
+
+    worked on altstyles
+
+[33mcommit 9853a09f270471f883700b23d2b27267a9bd2bb1[m
+Author: Joshua <joshuabantayan31@gmail.com>
+Date:   Sun Feb 18 10:07:15 2018 +0800
+
+    test
+
+[33mcommit 1f5bbe35cd963baf08fa4d213ec920e27fe75309[m
+Author: Joshua Bantayan <31948724+joshbantayan@users.noreply.github.com>
+Date:   Sat Feb 17 15:48:31 2018 +0800
+
+    Update style.css
+
+[33mcommit 23491bcc9b53401a4e1362c196a46a4c106d98f8[m
+Merge: 740fad4 1ff2354
+Author: gabozkhi <gabrielbucsit5@gmail.com>
+Date:   Sat Feb 17 14:53:41 2018 +0800
+
+    Updated for fun style
+
+[33mcommit 1ff235488a723fb7911785f864eabececbcf5f7d[m
+Author: ivy mae palma <35758420+aybimey@users.noreply.github.com>
+Date:   Sat Feb 17 02:45:53 2018 +0800
+
+    edit altstyles
+
+[33mcommit 9d49341bdf2675c2666ce6621975f6d4f110835c[m
+Author: ivy mae palma <35758420+aybimey@users.noreply.github.com>
+Date:   Sat Feb 17 00:50:33 2018 +0800
+
+    add font
+
+[33mcommit 9f09fe7bc5e95bda05c333227bde2b8c9f4d6373[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Fri Feb 16 22:28:39 2018 +0800
+
+    fixing pictures
+
+[33mcommit 916087e64d5e1009d26e14ded2407f17df8560a2[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Fri Feb 16 16:00:04 2018 +0800
+
+    altstyle pic grids
+
+[33mcommit 3e2e259ef0318119e2a1d277c714194e93885caf[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Thu Feb 15 00:44:40 2018 +0800
+
+    Added fun style css for advocacy 3
+
+[33mcommit 6217750a54d97af16641bdc6317a278f20091663[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Thu Feb 15 00:43:57 2018 +0800
+
+    Added fun style css for advocacy 3
+
+[33mcommit 0a5e9e7931fbe19008795b6cea3d323c3e790b0d[m
+Merge: 65f3799 eedc48e
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Thu Feb 15 00:42:00 2018 +0800
+
+    Merge branch 'master' of https://github.com/joshbantayan/PrelimWebtechLab
+
+[33mcommit 740fad491472827c864c13c291deb031a24097cc[m
+Merge: e82a293 eedc48e
+Author: gabozkhi <gabrielbucsit5@gmail.com>
+Date:   Wed Feb 14 15:54:32 2018 +0800
+
+    Merge branch 'master' of https://github.com/joshbantayan/PrelimWebtechLab
+
+[33mcommit e82a293f21c6219fa9b13c7831326ee5ba919226[m
+Author: gabozkhi <gabrielbucsit5@gmail.com>
+Date:   Wed Feb 14 15:54:03 2018 +0800
+
+    Updated altstyle
+
+[33mcommit eedc48e67f23f0ecc94c79d2d390bd5ec3181740[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Wed Feb 14 15:47:27 2018 +0800
+
+    worked on altstyles css
+
+[33mcommit 65f37995034fd986ad1697f93066553cb2646369[m
+Merge: f8ba2c6 5801dbe
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sun Feb 11 18:25:08 2018 +0800
+
+    Merge branch 'master' of https://github.com/joshbantayan/PrelimWebtechLab
+
+[33mcommit f8ba2c656a9d26eb640ee1ad4097be6253119988[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sun Feb 11 18:24:04 2018 +0800
+
+    Final touches for Advocacy 3 css
+
+[33mcommit 5801dbe88b7ac4c52bae5ec3bfcd2d3f45f18ef7[m
+Merge: 472fb69 591fe09
+Author: ivy mae palma <35758420+aybimey@users.noreply.github.com>
+Date:   Sun Feb 11 18:19:20 2018 +0800
+
+    Merge branch 'master' of https://github.com/joshbantayan/PrelimWebtechLab
+
+[33mcommit 472fb69dfe39abe0ccec11645422aaeaf4e70201[m
+Author: ivy mae palma <35758420+aybimey@users.noreply.github.com>
+Date:   Sun Feb 11 18:18:47 2018 +0800
+
+    edit style.css
+
+[33mcommit 591fe09207c1507ebf831e9138634c4ce1d331ea[m
+Author: tyuyuiertuio <32708495+tyuyuiertuio@users.noreply.github.com>
+Date:   Sun Feb 11 17:55:31 2018 +0800
+
+    Update style.css
+
+[33mcommit 7e4c42d374fe9e37c360e79530c9a6949832d96b[m
+Merge: db72381 952e4a6
+Author: ivy mae palma <35758420+aybimey@users.noreply.github.com>
+Date:   Sun Feb 11 17:53:59 2018 +0800
+
+    Merge remote-tracking branch 'refs/remotes/origin/master
+    edit
+
+[33mcommit db7238188541785b3a415530e55a2e5cb50817ea[m
+Author: ivy mae palma <35758420+aybimey@users.noreply.github.com>
+Date:   Sun Feb 11 17:49:57 2018 +0800
+
+    edit style.css and /styles/style.css
+
+[33mcommit 952e4a6b0dc6dcefe7b31a28ba02485b3e2a6875[m
+Author: tyuyuiertuio <32708495+tyuyuiertuio@users.noreply.github.com>
+Date:   Sun Feb 11 17:43:40 2018 +0800
+
+    Update style.css
+
+[33mcommit ef1602e2dea67082a142406b3ac53e9c807becbc[m
+Author: tyuyuiertuio <32708495+tyuyuiertuio@users.noreply.github.com>
+Date:   Sun Feb 11 17:33:53 2018 +0800
+
+    added border radius
+
+[33mcommit ae0b5f8e0976568be86f0575ef8e2eab47c379ae[m
+Author: tyuyuiertuio <32708495+tyuyuiertuio@users.noreply.github.com>
+Date:   Sun Feb 11 17:21:28 2018 +0800
+
+    Update style.css
+
+[33mcommit 3b8b0501a0b5be7da5b2703791d05fa257b63840[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sun Feb 11 16:37:40 2018 +0800
+
+    added overflow-x attribute
+
+[33mcommit e3c7c79b4fe44fdb4a71ec92260541826265f34a[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sun Feb 11 14:28:49 2018 +0800
+
+    fixed gallery page, changed font and colors
+
+[33mcommit 83530f01672df5d83471936c8b0fb372498f9189[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Sun Feb 11 12:27:04 2018 +0800
+
+    overlay and pictures fixed
+
+[33mcommit 8502a6a9d0c10fd34fd49a0aaae84a5d84d6541e[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sun Feb 11 07:41:16 2018 +0800
+
+    Fixed the vertical nav bar and projects subpages
+
+[33mcommit fa072d879720743a11ab39b38a098ea78160cd0a[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sun Feb 11 00:04:44 2018 +0800
+
+    Fixed the video bg
+
+[33mcommit e05c9608c172c85701fdf8be0abcfcdcc2cdb3fa[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Sat Feb 10 22:04:30 2018 +0800
+
+    background
+
+[33mcommit 4fff532ac02c513d9a729e85d631d051ab93046a[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sat Feb 10 21:16:59 2018 +0800
+
+    Video bg probs
+
+[33mcommit 44bb6e98cf916eb466708ed49c4fcbb7fdc385e7[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sat Feb 10 20:40:54 2018 +0800
+
+    fixed nav bar (pls sana gumana lol)
+
+[33mcommit bacde97b23dfc163b3676386b4a144742d85dc2f[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sat Feb 10 20:24:02 2018 +0800
+
+    Changes on css for projects html
+
+[33mcommit c5fb2077a4714e942a4d9600f52bf4839e7d7064[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Sat Feb 10 20:15:52 2018 +0800
+
+    style - copy file
+
+[33mcommit ff1d466f38b1d6629213501babf23494f5b5e29a[m
+Merge: 39c6f31 3ca1b30
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sat Feb 10 15:52:42 2018 +0800
+
+    Merge branch 'master' of https://github.com/joshbantayan/PrelimWebtechLab
+
+[33mcommit 39c6f3167c126041b02e882f6e0072a42be50e16[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sat Feb 10 15:52:28 2018 +0800
+
+    Made css changes
+
+[33mcommit 3ca1b3013bbda7e6d34af345c38514b3587044ca[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sat Feb 10 15:51:21 2018 +0800
+
+    css additions
+
+[33mcommit 3a570beaf3ba2ba55bdada3f853980ffba628951[m
+Merge: 905c83d ee1565b
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sat Feb 10 15:36:50 2018 +0800
+
+    Merge branch 'master' of https://github.com/joshbantayan/PrelimWebtechLab
+
+[33mcommit 905c83da6f3020e00cce02ce9098ad02915258cb[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sat Feb 10 15:36:13 2018 +0800
+
+    worked on gallery page
+
+[33mcommit ee1565b44de2758a57b0d9a35326ebf3af68c0a8[m
+Merge: 6631187 af9f9bc
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Sat Feb 10 15:32:36 2018 +0800
+
+    Merge branch 'master' of http://github.com/joshbantayan/PrelimWebtechLab
+
+[33mcommit 663118780158fdfc29471512792a1394d678e515[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Sat Feb 10 15:30:11 2018 +0800
+
+    horizontal_nav_bar
+
+[33mcommit af9f9bca9eda348a06eab7df6729d63fbff8f6e6[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sat Feb 10 15:26:34 2018 +0800
+
+    Made font changes
+
+[33mcommit e432f35ab0dba82216270e319231f3799547ed12[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sat Feb 10 14:43:54 2018 +0800
+
+    added css
+
+[33mcommit 6dec53c05d322efba0409fd9f3dbc76793abe7df[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Fri Feb 9 23:28:43 2018 +0800
+
+    added a few things
+
+[33mcommit 4a42862f085007124e6d9ffe82b37bcf0a0d9056[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Fri Feb 9 22:14:32 2018 +0800
+
+    edited index.html
+
+[33mcommit f013f68cb8f36f4588157c0b18c8cc382f3bad03[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Fri Feb 9 19:46:46 2018 +0800
+
+    EnvPro Project page
+
+[33mcommit 100de2e0db0edd14c8bafc08003d1cb3d2915d8e[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Fri Feb 9 02:22:02 2018 +0800
+
+    Home page done
+
+[33mcommit ccc53e6f29a4ac840acb583a40b0acd8a19b7479[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Thu Feb 8 20:52:14 2018 +0800
+
+    revert to css changes for footer icons, added hover effects
+
+[33mcommit 8e0724aa814b868e48416f6b32bbbe20d0ceb49c[m
+Merge: f67664b 8d94c9d
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Thu Feb 8 20:00:44 2018 +0800
+
+    hahaha
+
+[33mcommit f67664b1d13a38acca396c705ba4f82e6667d373[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Thu Feb 8 19:59:29 2018 +0800
+
+    eto po, balik sa dati
+
+[33mcommit 8d94c9d8827c393161ea0fad99c08b825c138f66[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Thu Feb 8 19:57:59 2018 +0800
+
+    For meriging
+
+[33mcommit 4b25199da82e0266d7636d73b8ffdb9a6e369dd9[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Thu Feb 8 19:44:14 2018 +0800
+
+    css update
+
+[33mcommit 7fb4dac134d5dddb954770b1eb884b6a733647be[m
+Merge: a9d9801 5bdd97b
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Thu Feb 8 19:43:10 2018 +0800
+
+    css
+
+[33mcommit a9d980137c76dff76a7517fca3a062a352196657[m[33m ([m[1;32mbranch[m[33m)[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Thu Feb 8 19:35:00 2018 +0800
+
+     css
+
+[33mcommit 5bdd97ba67755b32a7eb7249c67dee17990802c4[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Thu Feb 8 02:06:00 2018 +0800
+
+    Made css changes for footer icons, added hover effects
+
+[33mcommit 8058d30ded357f16d54ccdb6f119df768fb3f64c[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Thu Feb 8 01:21:57 2018 +0800
+
+    Made css changes, mainly for About.html and footer
+
+[33mcommit ca1bd278ad5c7de228408b9499e5eaa47b08e386[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Wed Feb 7 20:13:54 2018 +0800
+
+    style css
+
+[33mcommit 17d0d99b2d9a1330d389a63603c7668fa7c9fa69[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Wed Feb 7 15:21:11 2018 +0800
+
+    back
+
+[33mcommit 75459f61b8285a1bbbb679ba2f27f730e8049f1e[m
+Author: graehamsolis <2156952@slu.edu.ph>
+Date:   Tue Feb 6 21:07:43 2018 +0800
+
+    css tabs, video-background
+
+[33mcommit ba71eb752bf36c596a34b4614358331e660b3bb1[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sun Feb 4 23:07:11 2018 +0800
+
+    Final touches to all HTML files
+
+[33mcommit 7b390bc728d735e60eb4320622561b666d57d2f4[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sun Feb 4 21:13:18 2018 +0800
+
+    Added projects.html and its content
+
+[33mcommit 0235dbe51db54fc1ceff3d1461cd7dc61fe416b5[m
+Merge: ee2b26d 61c98e2
+Author: gabozkhi <gabrielbucsit5@gmail.com>
+Date:   Sun Feb 4 20:46:39 2018 +0800
+
+    Merge branch 'master' of https://github.com/joshbantayan/PrelimWebtechLab
+
+[33mcommit ee2b26d387cbc6be0065b301a01884b24f8cb176[m
+Author: gabozkhi <gabrielbucsit5@gmail.com>
+Date:   Sun Feb 4 20:42:43 2018 +0800
+
+    Added about.html file and updated other html files under 9331B-G2-1
+
+[33mcommit 61c98e29d072147fc5d8687e007739f802b04b0f[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sun Feb 4 20:40:43 2018 +0800
+
+    Added resources
+
+[33mcommit dffc5ab322696188609d34f5e45121e170642028[m
+Merge: a6842b7 bba041b
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sun Feb 4 20:39:49 2018 +0800
+
+    Merge branch 'master' of https://github.com/joshbantayan/PrelimWebtechLab
+
+[33mcommit a6842b70fdb8485ddfd827b89ecc04ad20e3d72c[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sun Feb 4 20:30:12 2018 +0800
+
+    modified styles files
+
+[33mcommit bba041b72b47330b309ec9b46c19f70c30f2aba1[m
+Author: Joshua Bantayan <31948724+joshbantayan@users.noreply.github.com>
+Date:   Sun Feb 4 20:20:59 2018 +0800
+
+    Delete style.css
+
+[33mcommit 569167c7ce99ffc7d02acaeb0d3bb1026857c998[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sun Feb 4 20:19:32 2018 +0800
+
+    added footer address
+
+[33mcommit 14dc1baae1058b0455bb643300470555fe6bc9f3[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sun Feb 4 19:47:44 2018 +0800
+
+    Edited some content from 9331B-G2-2
+
+[33mcommit 2f129d5f258f557661b015ee546328c0adc62491[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sun Feb 4 19:24:57 2018 +0800
+
+    added edsons bio
+
+[33mcommit 511888ded1ee13b6265c2cccdda7317164856dbc[m
+Merge: 696d7e0 9caa268
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sun Feb 4 19:16:33 2018 +0800
+
+    update
+
+[33mcommit 696d7e09c7bc0c2eb255d26c01b74888d6b660df[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sun Feb 4 19:14:47 2018 +0800
+
+    Organized folder names as specified
+
+[33mcommit 9caa268dbfeed070b1006e1d8c1bf85936c6c437[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sun Feb 4 19:11:06 2018 +0800
+
+    added altstyle and styles folder
+
+[33mcommit 28c1ec5fc54a3735dc8500582e7fa39306f7a99d[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sun Feb 4 19:07:44 2018 +0800
+
+    Made a few tweaks
+
+[33mcommit 20a2552ff11da52f27a044014dff34323f3f948e[m
+Merge: 6a99d34 63f8d12
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sun Feb 4 18:56:52 2018 +0800
+
+    Merge branch 'master' of https://github.com/joshbantayan/PrelimWebtechLab
+
+[33mcommit 6a99d34f4a4bc7b13a6db0163b9e702d6ff00aed[m
+Merge: 5339cd3 13d10b3
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sun Feb 4 18:42:33 2018 +0800
+
+    Merge branch 'master' of https://github.com/joshbantayan/PrelimWebtechLab
+
+[33mcommit 5339cd3d1021f6f0a99c914360cbef28f939db69[m
+Author: rammaria <rammariadvincula@gmail.com>
+Date:   Sun Feb 4 18:41:31 2018 +0800
+
+    New changes to About html
+
+[33mcommit 63f8d12e0cfad5fb807bddf10c26fead49b34247[m
+Merge: 41b7a5b 13d10b3
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sun Feb 4 18:36:19 2018 +0800
+
+    commitment
+
+[33mcommit 41b7a5bd1a365a9782584f59ee60d709092e72ec[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sun Feb 4 18:25:41 2018 +0800
+
+    commitment
+
+[33mcommit a9a7d3cf4b1a54b39deaeaafeeb039a465c721e9[m
+Author: joshbantayan <joshbantayan@yahoo.com>
+Date:   Sun Feb 4 18:20:08 2018 +0800
+
+    commit hehe
+
+[33mcommit 13d10b379d894b5ca3d0ec589716095342bc7e67[m
+Author: Joshua Bantayan <31948724+joshbantayan@users.noreply.github.com>
+Date:   Sun Feb 4 18:06:43 2018 +0800
+
+    Delete img.jpg
+
+[33mcommit 3ba91f0fe6e6fe45d9db9992cae5d0867d353376[m
+Author: Joshua Bantayan <31948724+joshbantayan@users.noreply.github.com>
+Date:   Sun Feb 4 18:06:33 2018 +0800
+
+    Delete 1.jpg
+
+[33mcommit 27196deb9de6ba207b82c612a8ac5574fee55df4[m
+Author: gabozkhi <gabrielbucsit5@gmail.com>
+Date:   Sun Feb 4 17:39:38 2018 +0800
+
+    Renamed alstyle folder under 9331B-G2-1
+
+[33mcommit 7249c0d35aa4ff0f52e17528884132ea50569f4f[m
+Author: gabozkhi <gabrielbucsit5@gmail.com>
+Date:   Sun Feb 4 17:33:44 2018 +0800
+
+    Added root folder and moved all files there
+
+[33mcommit 178ccf71769d6ac30c002897ef13c6c7e1bd819f[m
+Author: gabozkhi <gabrielbucsit5@gmail.com>
+Date:   Sun Feb 4 17:26:35 2018 +0800
+
+    Renamed advocacy 1 folder
+
+[33mcommit a94b79a252bdca9973153c6f57a18b8be03338ee[m
+Author: gabozkhi <gabrielbuc

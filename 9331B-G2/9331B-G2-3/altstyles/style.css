@@ -332,6 +332,8 @@ div #green_image34 {grid-area: bright;}
     border-radius: 50%;
     float: left;
     margin: 0px 2px 0px 2px;
+    border: 1px solid #333;
+    height: auto;
 }
 div #author1,
 div #author2,
@@ -340,11 +342,31 @@ div #author4,
 div #author5,
 div #author6 {
     width: 45%;
-    display: grid;
+    display: block;
     float: left;
     margin: 10px 50px 2px 2px;
 }
 
+div #author1 p,
+div #author2 p,
+div #author3 p,
+div #author4 p,
+div #author5 p,
+div #author6 p {
+
+    margin: 5px;
+    font-size: 1em;
+}
+
+div #author1 h3,
+div #author2 h3,
+div #author3 h3,
+div #author4 h3,
+div #author5 h3,
+div #author6 h3 {
+
+    font-size: 1.6em;
+}
 /* CONTACT US PAGE*/
 
 

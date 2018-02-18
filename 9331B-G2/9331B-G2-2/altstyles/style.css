@@ -402,7 +402,7 @@ h2{
 
 .member_name{
     text-shadow: 3px 4px rgba(0, 0, 0, 0.4);
-    text-align: justify;
+    text-align:center ;
     font-size: 30px;
     font-family: "amaticBold";
 }
